@@ -1,5 +1,6 @@
 # Python - POO
 
+![alt text](image-1.png)
 ## 1. Sélection de ressources
 
 ### Vidéos

@@ -9,3 +9,8 @@ echo "z/" >> .gitignore
 git init
 git branch -m main
 git add .
+git commit -m "Initial commit"
+gh repo create module_python_poo --public
+git remote add origin https://github.com/yzpt/module_python_poo.git
+git push -u origin main
+
