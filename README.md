@@ -2,6 +2,11 @@
 
 ![alt text](image-1.png)
 
+## 0. Pré-requis
+
+* Git ! https://www.youtube.com/watch?v=gGKZLfPYORs
+
+
 ## 1. Sélection de ressources
 
 ### Vidéos
