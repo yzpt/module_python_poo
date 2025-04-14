@@ -5,10 +5,10 @@
 - Calcul du périmètre
 - Calcul de la surface
 - Afficher le rectangle sous la forme "Rectangle de largeur L et longueur l"
-- Les accesseurs et mutateurs triviaux (lecture et modification du paramètres largeur et longueur).
-
+  
 ## Exercice 2:
-Écrivez un programme Python pour créer une classe Personne. Incluez des attributs tels que le nom, le pays et la date de naissance. Implémentez une méthode pour déterminer l’âge de la personne.
+Écrivez un programme Python pour créer une classe Personne. Incluez des attributs tels que le nom, le pays et la date de naissance. 
+Implémentez une méthode pour déterminer l’âge de la personne (utiliser la biblothèque datetime, chatgpt)
 
 ## Exercice 3:
 Écrivez un programme Python pour créer une classe représentant un panier d'achat. Incluez des méthodes pour ajouter et supprimer des articles, et pour calculer le prix total.

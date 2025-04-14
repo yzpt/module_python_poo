@@ -11,6 +11,7 @@
 
 ### Vidéos
 * FreeCodeCamp: Object Oriented Programming with Python - Full Course for Beginners | https://www.youtube.com/watch?v=Ej_02ICOIgs
+* Code avec Jonathan | https://www.youtube.com/watch?v=Y-wXK0Wu5pc
 * Docstring : Python : La programmation orientée objet | https://www.youtube.com/watch?v=h6jciR8K43E
   
 ### Cours/exos en ligne
