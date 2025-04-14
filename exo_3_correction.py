@@ -34,10 +34,8 @@ print("prix de l'article 1", article_1.prix)
 # Test de la méthode d'affichage:
 article_2.afficher()
 
+# On a fini et testé la classe Article, on s'occupe maintenant de la classe Panier:
 
-
-
-# Classe Panier
 class Panier:
     def __init__(self):
         self.articles = [] # liste d'articles vide, que l'on va remplir avec des méthodes
@@ -46,7 +44,9 @@ class Panier:
         self.articles.append(article)
         
     def afficher_panier(self):
-        ...
+        # afficher une ligne par article, en utilisant une boucle for
+        for element in self.articles:
+            element.afficher()
         
    
 # on teste direct :
