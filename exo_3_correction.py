@@ -45,8 +45,8 @@ class Panier:
         
     def afficher_panier(self):
         # afficher une ligne par article, en utilisant une boucle for
-        for element in self.articles:
-            element.afficher()
+        for article in self.articles:
+            article.afficher()
         
    
 # on teste direct :
