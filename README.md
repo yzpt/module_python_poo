@@ -39,6 +39,7 @@
 Écrivez un programme Python pour créer une classe Personne. Incluez des attributs tels que le nom, le pays et la date de naissance. Implémentez une méthode pour déterminer l’âge de la personne.
 
 ### Exercice 3:
+Créez d'abord la classe Article !
 Écrivez un programme Python pour créer une classe représentant un panier d'achat. Incluez des méthodes pour ajouter et supprimer des articles, et pour calculer le prix total.
 Il faudra aussi créer une classe Article qui contiendra le nom de l’article, le prix unitaire et la quantité. Implémentez les méthodes nécessaires pour gérer les articles dans le panier.
 
