@@ -57,3 +57,11 @@ Créez également une classe "paquet" qui représente un paquet de cartes. La cl
 Écrivez un programme Python pour créer une classe appelée « Banque » avec une collection de comptes et des méthodes pour ajouter et supprimer des comptes, et pour déposer et retirer de l’argent. Définissez également une classe appelée « Compte » pour gérer les détails du compte d’un client particulier.
 ![alt text](exercices/image-2.png)
 
+<hr>
+
+# Lundi 14 avril 2025
+
+## 1. Installer git :
+## 2. Cloner le repo: https://github.com/yzpt/module_python_poo
+## 3. Créer un compte github !
+## 4. Push votre repo sur votre compte github
