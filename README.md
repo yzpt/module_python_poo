@@ -62,6 +62,9 @@ Créez également une classe "paquet" qui représente un paquet de cartes. La cl
 # Lundi 14 avril 2025
 
 ## 1. Installer git :
+Windows : utiliser git bash
+https://git-scm.com/downloads/win
+
 ## 2. Cloner le repo: https://github.com/yzpt/module_python_poo
 ## 3. Créer un compte github !
 ## 4. Push votre repo sur votre compte github
