@@ -13,7 +13,8 @@ class Article:
         self.quantite = quantite
         
     def total(self):
-        ...
+        self.total = self.prix * self.quantite
+        return self.total
         
     def afficher(self):
         print(f"Nom: {self.nom}, Prix: {self.prix}, Quantité: {self.quantite}, Total: {self.total()}")
@@ -33,3 +34,38 @@ print("prix de l'article 1", article_1.prix)
 # Test de la méthode d'affichage:
 article_2.afficher()
 
+
+
+
+# Classe Panier
+class Panier:
+    def __init__(self):
+        self.articles = [] # liste d'articles vide, que l'on va remplir avec des méthodes
+
+    def ajouter_article(self, article):
+        self.articles.append(article)
+        
+    def afficher_panier(self):
+        ...
+        
+   
+# on teste direct :
+panier_1 = Panier()
+panier_1.ajouter_article(article_1)
+panier_1.ajouter_article(article_2)
+panier_1.afficher_panier()
+
+# Ensuite, ajouter les autres méthodes de la classe panier, et les tester:
+#     def retirer_article(self, article):
+#         self.articles.remove(article)
+        
+#     def modifier_quantite_article(self, article, quantite):
+#         article.quantite = quantite
+        
+#     def total_panier(self):
+#         ...
+    
+#     def afficher_contenu(self):
+#         ...
+        
+    
