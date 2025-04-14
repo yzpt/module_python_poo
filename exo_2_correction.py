@@ -1,6 +1,4 @@
 ## Exercice 2:
-# Écrivez un programme Python pour créer une classe Personne. Incluez des attributs tels que le nom, le pays et la date de naissance. 
-# Implémentez une méthode pour déterminer l’âge de la personne (utiliser la biblothèque datetime, chatgpt)
 
 from datetime import datetime
 
@@ -12,9 +10,17 @@ class Personne:
         
     def afficher(self):
         print(f"Nom: {self.nom}, Pays: {self.pays}, Date de Naissance: {self.date_naissance.strftime('%Y-%m-%d')}")
-        
+
     def age(self):
         today = datetime.today()
         age = today.year - self.date_naissance.year # (grossièrement)
         return age
-    
+
+# Création d'instances de la classe Personne:
+personne1 = Personne("Alice", "France", "1990-05-15")
+personne2 = Personne("Bob", "USA", "1985-10-20")
+
+# Affichage des informations et de l'âge des personnes:
+personne1.afficher()
+print(f"Âge: {personne1.age()} ans")
+
