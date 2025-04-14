@@ -16,23 +16,17 @@ def clear_console():
 def afficher_menu():
     print("Bienvenue dans la bibliothèque")
     print("1. Afficher tous les livres")
+    print("2. Ajouter un livre")
     print("q. Quitter")
 
-def choix_1(livres):
-    clear_console()
-    print("Liste des livres :")
-    print("------------------------")
-    for livre in livres:
-        livre.afficher()
-    print("------------------------")
-    input("Appuyez sur Entrée pour revenir au menu...")
-    
 
 # -----------------------
 # Programme principal
 # -----------------------
 
 if __name__ == "__main__":
+    
+    # On crée une liste de livres vide
     livres = []
     
     # Ajout de quelques livres
@@ -46,12 +40,24 @@ if __name__ == "__main__":
         clear_console()
         afficher_menu()
         choix = input("Faites votre choix : ").strip().lower()
+        
         if choix == "1":
-            choix_1(livres)
+            clear_console()
+            print("Liste des livres :")
+            print("------------------------")
+            for livre in livres:
+                livre.afficher()
+            print("------------------------")
+            input("Appuyez sur Entrée pour revenir au menu...")
+            
+        elif choix == "2":
+            ...
+        
         elif choix == "q":
             clear_console()
             print("Au revoir !")
             break
+        
         else:
             print("Choix invalide.")
             input("Appuyez sur Entrée pour réessayer...")

@@ -11,6 +11,8 @@ class Article:
         print(f"Nom: {self.nom}, Prix: {self.prix}€, Quantité: {self.quantite}, Total: {self.total():.2f}€")
 
 
+# Contrairement aux applications précédentes, on crée une classe Panier au lieu d'une simple liste d'articles.
+# Si on regarde bien, la classe Panier est simplement une liste d'articles. Sur laquelle on va appliquer des méthodes.
 class Panier:
     def __init__(self):
         self.articles = []
@@ -23,7 +25,6 @@ class Panier:
         for article in self.articles:
             article.afficher()
     
-
 
 # -----------------------
 # Interface utilisateur
@@ -38,23 +39,9 @@ def afficher_menu():
     print("2. Afficher le contenu du panier")
     print("q. Quitter")
 
-# Fonctions liées au menu
-def choix_1(panier):
-    clear_console()
-    print("Ajout d'un article")
-    nom = input("Nom de l'article : ")
-    prix = float(input("Prix de l'article (€) : "))
-    quantite = int(input("Quantité : "))
-    article = Article(nom, prix, quantite)
-    panier.ajouter_article(article)
-    print("Article ajouté avec succès.")
-    input("Appuyez sur Entrée pour revenir au menu...")
-
-def choix_2(panier):
-    clear_console()
-    # ... ?
-    input("\nAppuyez sur Entrée pour revenir au menu...")
-
+# -----------------------
+# Programme principal
+# -----------------------
 
 def main():
     panier = Panier()
@@ -64,13 +51,24 @@ def main():
         afficher_menu()
         choix = input("Faites votre choix : ").strip().lower()
         if choix == "1":
-            choix_1(panier)
+            clear_console()
+            print("Ajout d'un article")
+            nom = input("Nom de l'article : ")
+            prix = float(input("Prix de l'article (€) : "))
+            quantite = int(input("Quantité : "))
+            article = Article(nom, prix, quantite)
+            panier.ajouter_article(article)
+            print("Article ajouté avec succès.")
+            input("Appuyez sur Entrée pour revenir au menu...")
+        
         elif choix == "2":
-            choix_2(panier)
+            ...
+            
         elif choix == "q":
             clear_console()
             print("Au revoir !")
             break
+        
         else:
             print("Choix invalide.")
             input("Appuyez sur Entrée pour réessayer...")
