@@ -71,5 +71,18 @@ https://git-scm.com/downloads/win
 git clone https://github.com/yzpt/module_python_poo.git
 
 ## 3. Créer un compte github !
-## 4. Push votre repo sur votre compte github
 
+
+# Mardi 15 avril 2025
+
+## Applications console:
+
+Prenez connaissance et executez le script app_0_template.py, c'est une base pour vos applications console.
+
+Complétez les applications :
+
+- app_1_bibliotheque.py
+- app_2_cartes.py
+- app_3_comptes.py
+- app_4_panier.py
+  
