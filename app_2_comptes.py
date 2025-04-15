@@ -65,13 +65,10 @@ if __name__ == "__main__":
                     compte.afficher_solde()
                     input("Appuyez sur Entrée pour revenir au menu...")
                     break
-            else:
-                print("Compte non trouvé.")
-                input("Appuyez sur Entrée pour revenir au menu...")
         
         elif choix == "3":
             clear_console()
-            print("Afficher le solde d'un compte") 
+            print("Déposer de l'argent sur un compte à partir du nom du titulaire") 
             
             # il faut retrouver le compte correspond au nom tapé par l'utilisateur
             nom = input("Nom du titulaire : ")    
@@ -82,11 +79,6 @@ if __name__ == "__main__":
                     # ajouter ce montant au compte sélectionné
                     ...
             
-            # Si on arrive à la fin de la boucle sans avoir trouvé le compte (pas de break), alors:                    
-            else:
-                print("Compte non trouvé.")
-                input("Appuyez sur Entrée pour revenir au menu...")
-        
         elif choix == "4":
             ...
         
