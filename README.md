@@ -2,7 +2,7 @@
 
 ![alt text](image-1.png)
 
-## 0. Pré-requis : git !
+# 0. Pré-requis : git !
 Tuto git/github: **https://www.youtube.com/watch?v=OpgmGI49Uxg**
 Git en 5min: https://www.youtube.com/watch?v=gGKZLfPYORs
 * Installer git :
@@ -13,7 +13,7 @@ https://git-scm.com/downloads/win
 
 <hr>
 
-## 1. Sélection de ressources
+# 1. Sélection de ressources
 
 ### Vidéos
 * 🇫🇷 Code avec Jonathan | https://www.youtube.com/watch?v=Y-wXK0Wu5pc
@@ -31,7 +31,7 @@ https://git-scm.com/downloads/win
 
 <hr>
 
-## 2. Exercices
+# 2. Exercices
 
 ### Exercice 1:
 Écrire une classe nommée Rectangle dont le constructeur prend deux paramètres (largeur, longueur) et les fonctions suivantes:
@@ -66,7 +66,7 @@ Créez également une classe "paquet" qui représente un paquet de cartes. La cl
 
 <hr>
 
-## Applications console:
+# 3. Applications console:
 
 Prenez connaissance et executez le script app_0_template.py, c'est une base pour vos applications console.
 
@@ -80,7 +80,7 @@ Complétez les applications :
 
 <hr>
 
-## Heritage et polymorphisme
+# 4. Heritage et polymorphisme
 
 [heritage_animaux.py](heritage_animaux.py)
 [heritage_personnes.py](heritage_personnes.py)
@@ -92,7 +92,7 @@ Complétez les applications :
 
 <hr>
 
-## Projet : gestion de chambres d'hôtel
+# 5. Projet : gestion de chambres d'hôtel
 
 Créer une application de gestion de chambres d'hôtel. L'application doit permettre de gérer les réservations, les clients et les chambres.
 Elle comportera au minimum les classes suivantes :
