@@ -13,9 +13,6 @@ class Paquet:
         self.cartes = []  # liste de cartes vide
 
     def ajouter_carte(self, carte):
-        valeur = input('Taper la valeur de la carte à ajouter :')
-        couleur = input('Taper la couleur de la carte à ajouter :')
-        carte = Carte(valeur, couleur)
         self.cartes.append(carte)
         print(f"Carte ajoutée : {carte.valeur} de {carte.couleur}")
         input("Appuyez sur Entrée pour continuer...")
@@ -76,7 +73,10 @@ if __name__ == "__main__":
             ...
             
         elif choix == "2":
-            ...
+            valeur = input("Entrez la valeur de la carte : ")
+            couleur = input("Entrez la couleur de la carte : ")
+            nouvelle_carte = Carte(valeur, couleur)
+            paquet.ajouter_carte(nouvelle_carte)
             
         elif choix == "3":
             ...
