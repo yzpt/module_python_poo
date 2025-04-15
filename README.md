@@ -72,8 +72,8 @@ Prenez connaissance et executez le script app_0_template.py, c'est une base pour
 
 Complétez les applications :
 
-### app_1_bibliotheque.py
- - Compléter la fonction d'ajout de livres dans la bibliothèque.
+### app_1_bibliotheque.py 
+- déjà complète
 
 ### app_2_comptes.py 
 
