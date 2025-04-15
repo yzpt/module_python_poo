@@ -65,9 +65,10 @@ if __name__ == "__main__":
                     compte.afficher_solde()
                     input("Appuyez sur Entrée pour revenir au menu...")
                     break
-            else:
-                print("Compte non trouvé.")
-                input("Appuyez sur Entrée pour revenir au menu...")
+            
+            # Si on arrive à la fin de la boucle sans avoir trouvé le compte (pas de break), alors:
+            print("Compte non trouvé.")
+            input("Appuyez sur Entrée pour revenir au menu...")
         
         elif choix == "3":
             ...
