@@ -91,13 +91,19 @@ Complétez les applications :
 [heritage_personnes.py](heritage_personnes.py)
 [heritage_geometrie.py](heritage_geometrie.py)
 
-## Attributs et méthodes publics, protégés et privés
+<hr>
+
+# 5. Attributs et méthodes publics, protégés et privés
 
 [visibilite.py](visibilite.py)
 
 <hr>
 
-# 5. Projet : gestion de chambres d'hôtel
+# 6. Projet : 
+
+## Sujet au choix:
+
+### Sujet 1 : gestion de chambres d'hôtel
 
 Créer une application de gestion de chambres d'hôtel. L'application doit permettre de gérer les réservations, les clients et les chambres.
 Elle comportera au minimum les classes suivantes :
@@ -116,4 +122,8 @@ Le menu principal de l'application doit permettre -au minimum- de :
 Spécifications :
 - Un client doit avoir un nom, un prénom, une adresse et un numéro de téléphone.
 - Une chambre doit avoir un numéro, un type (simple, double, suite) et un prix.
-- Une chambre ne peut pas être réservée par deux clients en même temps.
+
+
+### Sujet 2 : gestion de stock
+
+Créer une application de gestion de stock.
