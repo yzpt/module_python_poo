@@ -2,21 +2,23 @@
 
 ![alt text](image-1.png)
 
-## 0. Pré-requis
+## 0. Pré-requis : git !
+Tuto git/github: **https://www.youtube.com/watch?v=OpgmGI49Uxg**
+Git en 5min: https://www.youtube.com/watch?v=gGKZLfPYORs
+* Installer git :
+Windows : utiliser git bash
+https://git-scm.com/downloads/win
+* Cloner le repo:  https://github.com/yzpt/module_python_poo.git sur votre machine
+* Créer un compte github !
 
-* Git ! https://www.youtube.com/watch?v=gGKZLfPYORs
-
+<hr>
 
 ## 1. Sélection de ressources
 
 ### Vidéos
-* FreeCodeCamp: Object Oriented Programming with Python - Full Course for Beginners | https://www.youtube.com/watch?v=Ej_02ICOIgs
-* Code avec Jonathan | https://www.youtube.com/watch?v=Y-wXK0Wu5pc
-* Docstring : Python : La programmation orientée objet | https://www.youtube.com/watch?v=h6jciR8K43E
-  
-### Cours/exos en ligne
-* NSI Saint-Aspais Terminale (https://mcoilhac.forge.apps.education.fr/term/POO/1_cours_POO/)
-* Série d'exercices : https://mcoilhac.forge.apps.education.fr/term/POO/3_exos/
+* 🇫🇷 Code avec Jonathan | https://www.youtube.com/watch?v=Y-wXK0Wu5pc
+* 🇫🇷 Docstring : Python : La programmation orientée objet | https://www.youtube.com/watch?v=h6jciR8K43E
+* 🇬🇧 FreeCodeCamp: Object Oriented Programming with Python - Full Course for Beginners | https://www.youtube.com/watch?v=Ej_02ICOIgs 
 
 ### Sélection de PDF
 * [Python - POO - Cours Anis Saied](cours/cours_python_poo_anis_saied.pdf)
@@ -25,6 +27,9 @@
 * Chapitre 7 du [cours_python_cordeau_pointal.pdf](cours/cours_python_cordeau_pointal.pdf)
 * [Cours Python - POO - Zeste de Savoir](cours/cours_python_poo_zeste_de_savoir.pdf)
 * [Cours Python - POO - Cédric Buche Université de Brest](cours/cours_python_poo_buche_univ_brest.pdf)
+* NSI Saint-Aspais Terminale (https://mcoilhac.forge.apps.education.fr/term/POO/1_cours_POO/)
+
+<hr>
 
 ## 2. Exercices
 
@@ -61,20 +66,6 @@ Créez également une classe "paquet" qui représente un paquet de cartes. La cl
 
 <hr>
 
-# Lundi 14 avril 2025
-
-## 1. Installer git :
-Windows : utiliser git bash
-https://git-scm.com/downloads/win
-
-## 2. Cloner le repo: 
-git clone https://github.com/yzpt/module_python_poo.git
-
-## 3. Créer un compte github !
-
-
-# Mardi 15 avril 2025
-
 ## Applications console:
 
 Prenez connaissance et executez le script app_0_template.py, c'est une base pour vos applications console.
@@ -86,3 +77,38 @@ Complétez les applications :
 - app_3_comptes.py
 - app_4_panier.py
   
+
+<hr>
+
+## Heritage et polymorphisme
+
+[heritage_animaux.py](heritage_animaux.py)
+[heritage_personnes.py](heritage_personnes.py)
+[heritage_geometrie.py](heritage_geometrie.py)
+
+## Attributs et méthodes publics, protégés et privés
+
+[visibilite.py](visibilite.py)
+
+<hr>
+
+## Projet : gestion de chambres d'hôtel
+
+Créer une application de gestion de chambres d'hôtel. L'application doit permettre de gérer les réservations, les clients et les chambres.
+Elle comportera au minimum les classes suivantes :
+- Client
+- Chambre
+- Réservation
+
+Le menu principal de l'application doit permettre -au minimum- de :
+- Ajouter un client
+- Faire une réservation
+- Afficher les réservations
+- Afficher les clients
+- Afficher les chambres
+- Quitter l'application
+  
+Spécifications :
+- Un client doit avoir un nom, un prénom, une adresse et un numéro de téléphone.
+- Une chambre doit avoir un numéro, un type (simple, double, suite) et un prix.
+- Une chambre ne peut pas être réservée par deux clients en même temps.
