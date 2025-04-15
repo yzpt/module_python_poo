@@ -16,7 +16,8 @@ def afficher_menu():
     print("1. Afficher toutes les cartes qu paquet")
     print("2. Ajouter une carte")
     print("3. Mélanger les cartes")
-    print('4. Tirer une carte du paquet') # attention à vérifier si le paquet est vide !
+    print("4. Tirer une carte du paquet, l'afficher, la remettre") # attention à vérifier si le paquet est vide !
+    print("5. Retirer une carte du paquet") # attention à vérifier si le paquet est vide !
     print("q. Quitter")
 
 
@@ -53,6 +54,13 @@ if __name__ == "__main__":
             print("Les cartes ont été mélangées.")
             input("Appuyez sur Entrée pour revenir au menu...")
             
+        
+        elif choix == "4":
+            ...
+            
+        elif choix == '5':
+            ...
+                        
         elif choix == "q":
             clear_console()
             print("À bientôt !")
