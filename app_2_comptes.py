@@ -10,9 +10,10 @@ class Compte:
     def retirer(self, montant):
         ...
         
+    def afficher_solde(self):
+        print(f"Le solde du compte de {self.nom} est de {self.solde}€.")
         
-
-
+        
 # -----------------------
 # Interface utilisateur
 # -----------------------
@@ -34,7 +35,8 @@ if __name__ == "__main__":
     # Données initiales
     compte1 = Compte("Alice", 1000)
     compte2 = Compte("Bob", 500)
-    comptes = [compte1, compte2]
+    compte3 = Compte("Charlie", 200)
+    comptes = [compte1, compte2, compte3]
     
     while True:
         clear_console()
@@ -52,7 +54,20 @@ if __name__ == "__main__":
             input("Appuyez sur Entrée pour revenir au menu...")
         
         elif choix == "2":
-            ...
+            clear_console()
+            print("Afficher le solde d'un compte")
+            
+            # il faut retrouver le compte correspond au nom tapé par l'utilisateur
+            nom = input("Nom du titulaire : ")    
+            for compte in comptes:
+                if compte.nom.lower() == nom.lower():
+                    # on appelle la méthode afficher_solde de la classe Compte (il faut l'écrire !)
+                    compte.afficher_solde()
+                    input("Appuyez sur Entrée pour revenir au menu...")
+                    break
+            else:
+                print("Compte non trouvé.")
+                input("Appuyez sur Entrée pour revenir au menu...")
         
         elif choix == "3":
             ...
@@ -61,7 +76,12 @@ if __name__ == "__main__":
             ...
         
         elif choix == "5":
-            ...
+            # afficher tous les comptes
+            clear_console()
+            print("Liste des comptes :")
+            for compte in comptes:
+                print(f"{compte.nom} : {compte.solde}€")
+            input("Appuyez sur Entrée pour revenir au menu...")
 
         elif choix.lower() == "q":
             print("Merci d'avoir utilisé l'application de gestion des comptes bancaires.")
