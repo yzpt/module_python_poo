@@ -13,7 +13,12 @@ class Paquet:
         self.cartes = []  # liste de cartes vide
 
     def ajouter_carte(self, carte):
-        ...
+        valeur = input('Taper la valeur de la carte à ajouter :')
+        couleur = input('Taper la couleur de la carte à ajouter :')
+        carte = Carte(valeur, couleur)
+        self.cartes.append(carte)
+        print(f"Carte ajoutée : {carte.valeur} de {carte.couleur}")
+        input("Appuyez sur Entrée pour continuer...")
 
     def melanger(self):
         ...
