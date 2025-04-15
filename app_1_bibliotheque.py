@@ -31,8 +31,8 @@ if __name__ == "__main__":
     livres = []
     
     # Ajout de quelques livres
-    livre1 = Livre("Le Petit Prince", "Antoine de Saint-Exupéry", True)
-    livre2 = Livre("1984", "George Orwell", False)
+    livre1 = Livre("Le Petit Prince", "Antoine de Saint-Exupéry")
+    livre2 = Livre("1984", "George Orwell")
     
     livres.append(livre1)
     livres.append(livre2)
@@ -52,7 +52,15 @@ if __name__ == "__main__":
             input("Appuyez sur Entrée pour revenir au menu...")
             
         elif choix == "2":
-            ...
+            clear_console()
+            
+            titre = input("Entrez le titre du livre : ")
+            
+            auteur = input("Entrez le nom de l'auteur : ")
+            nouveau_livre = Livre(titre, auteur)
+            livres.append(nouveau_livre)
+            print(f"Le livre '{titre}' a été ajouté avec succès.")
+            input("Appuyez sur Entrée pour revenir au menu...")
             
         
         elif choix == "q":
