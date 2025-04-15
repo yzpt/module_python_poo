@@ -6,6 +6,11 @@ class Compte:
     def deposer(self, montant):
         self.solde += montant
         print(f"{montant} a été déposé sur le compte de {self.nom}. Nouveau solde : {self.solde}")
+        
+    def retirer(self, montant):
+        ...
+        
+        
 
 
 # -----------------------

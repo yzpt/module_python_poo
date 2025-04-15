@@ -1,10 +1,11 @@
 class Livre:
-    def __init__(self, titre, ISBN, auteur, disponibilite):
+    def __init__(self, titre,  auteur):
         self.titre = titre
         self.auteur = auteur
         
     def afficher(self):
         print(f"Titre: {self.titre}, Auteur: {self.auteur}")
+    
         
 # -----------------------
 # Interface utilisateur
@@ -30,8 +31,8 @@ if __name__ == "__main__":
     livres = []
     
     # Ajout de quelques livres
-    livre1 = Livre("Le Petit Prince", "978-3-16-148410-0", "Antoine de Saint-Exupéry", True)
-    livre2 = Livre("1984", "978-0-452-28423-4", "George Orwell", False)
+    livre1 = Livre("Le Petit Prince", "Antoine de Saint-Exupéry", True)
+    livre2 = Livre("1984", "George Orwell", False)
     
     livres.append(livre1)
     livres.append(livre2)
@@ -52,6 +53,7 @@ if __name__ == "__main__":
             
         elif choix == "2":
             ...
+            
         
         elif choix == "q":
             clear_console()

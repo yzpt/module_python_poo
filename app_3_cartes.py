@@ -20,7 +20,8 @@ def afficher_menu():
 
 
 if __name__ == "__main__":
-    cartes = []
+    
+    cartes = [] #paquet de cartes vide
 
     # Quelques exemples de cartes
     cartes.append(Carte("As", "Coeur"))
