@@ -75,9 +75,12 @@ Complétez les applications :
 ### app_1_bibliotheque.py
  - Compléter la fonction d'ajout de livres dans la bibliothèque.
 
-- app_2_cartes.py
-- app_3_comptes.py
-- app_4_panier.py
+### app_2_comptes.py 
+
+### app_3_cartes.py
+
+### app_4_panier.py
+
   
 
 <hr>

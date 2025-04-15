@@ -53,9 +53,7 @@ if __name__ == "__main__":
             
         elif choix == "2":
             clear_console()
-            
             titre = input("Entrez le titre du livre : ")
-            
             auteur = input("Entrez le nom de l'auteur : ")
             nouveau_livre = Livre(titre, auteur)
             livres.append(nouveau_livre)

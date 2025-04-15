@@ -13,9 +13,10 @@ def clear_console():
 
 def afficher_menu():
     print("Bienvenue dans votre collection de cartes")
-    print("1. Afficher toutes les cartes")
+    print("1. Afficher toutes les cartes qu paquet")
     print("2. Ajouter une carte")
     print("3. Mélanger les cartes")
+    print('4. Tirer une carte du paquet') # attention à vérifier si le paquet est vide !
     print("q. Quitter")
 
 
