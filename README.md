@@ -110,9 +110,9 @@ Complétez les applications :
 
 Créer une application de gestion de chambres d'hôtel. L'application doit permettre de gérer les réservations, les clients et les chambres.
 Elle comportera au minimum les classes suivantes :
-- Client
-- Chambre
-- Réservation
+- Client (id, nom, prénom)
+- Chambre (id, prix)
+- Réservation (id, date d'arrivée, date de départ, client, chambre)
 
 Le menu principal de l'application doit permettre -au minimum- de :
 - Ajouter un client
@@ -124,7 +124,12 @@ Le menu principal de l'application doit permettre -au minimum- de :
   
 Spécifications :
 - Un client doit avoir un nom, un prénom, une adresse et un numéro de téléphone.
-- Une chambre doit avoir un numéro, un type (simple, double, suite) et un prix.
+- Une chambre doit avoir un numéro, un type (simple, double, suite) et un prix, en utilisant l'héritage :
+Parent: Chambre.
+Enfants:
+  - ChambreSimple
+  - ChambreDouble
+  - ChambreSuite
 
 
 
