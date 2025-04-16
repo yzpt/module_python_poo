@@ -11,6 +11,11 @@ https://git-scm.com/downloads/win
 * Cloner le repo:  https://github.com/yzpt/module_python_poo.git sur votre machine
 * Créer un compte github !
 
+# 0.1. Top voices à suivre pour faire sa veille technologique (data):
+- Florent Jakubowski : https://www.linkedin.com/in/florent-j-93716410b/
+- Gael Penessot : https://www.linkedin.com/in/gael-penessot/
+- Attention aux charlatans ! (Benjamin Dubreu, Morgan Gautherot, etc.)
+
 <hr>
 
 # 1. Sélection de ressources
