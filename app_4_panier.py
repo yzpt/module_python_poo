@@ -1,3 +1,7 @@
+import pandas as pd
+from datetime import datetime
+
+
 class Article:
     def __init__(self, nom, prix, quantite):
         self.nom = nom

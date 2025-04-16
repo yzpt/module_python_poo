@@ -33,7 +33,8 @@ class Personne:
         elif self.statut == "formateur":
             return ...
         
-        
+
+
 # Tester son code :
 # Créer une instance de la classe Personne
 p1 = Personne("Dupont", "Jean", datetime(2006, 5, 15), "étudiant")
