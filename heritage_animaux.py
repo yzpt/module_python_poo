@@ -19,7 +19,7 @@
 
 # Classe parente : Animal
 class Animal:
-    def __init__(self, nom, age):
+    def __init__(self, nom: str, age: int):
         self.nom = nom
         self.age = age
 

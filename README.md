@@ -156,14 +156,14 @@ class Hotel:
         self.reservations = []
 
     # Clients
-    def ajouter_client(self, client: Client):
+    def ajouter_client(self, client):
         ...
 
     def lister_clients(self):
         ...
 
     # Chambres
-    def ajouter_chambre(self, chambre: Chambre):
+    def ajouter_chambre(self, chambre):
         ...
 
     def lister_chambres(self):
