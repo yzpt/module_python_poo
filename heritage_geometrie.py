@@ -20,10 +20,12 @@ class Forme:
         print("🔺 Ceci est une forme géométrique.")
     
     def surface(self):
-        raise NotImplementedError("Méthode à implémenter dans les sous-classes.")
+        print("Méthode à implémenter dans les sous-classes.")
+        pass
 
     def perimetre(self):
-        raise NotImplementedError("Méthode à implémenter dans les sous-classes.")
+        print('Méthode à implémenter dans les sous-classes.')
+        pass
 
 
 # 🟦 Rectangle hérite de Forme
