@@ -124,12 +124,28 @@ Le menu principal de l'application doit permettre -au minimum- de :
   
 Spécifications :
 - Un client doit avoir un nom, un prénom, une adresse et un numéro de téléphone.
-- Une chambre doit avoir un numéro, un type (simple, double, suite) et un prix, en utilisant l'héritage :
-Parent: Chambre.
-Enfants:
-  - ChambreSimple
-  - ChambreDouble
-  - ChambreSuite
+- Une chambre doit avoir un numéro, un type (simple, double, suite) et un prix.
 
 
+### 1er niveau : sans héritage, on réfère le client et la chmabre de la réservation par l'id du client et l'id de la chambre.
+
+Client:
+  - id : int
+  - nom: str
+  - prenom: str
+  
+Chambre:
+  - id: int
+  - numéro: int
+  - prix: float
+  - type: str
+
+Reservation:
+  - id: int
+  - date_arrivee: str
+  - date_depart: str
+  - client_id: int
+  - chambre_id: int
+
+### 2ème niveau : avec héritage, on créé des classes ChambreSimple, ChambreDouble, ChambreSuite qui héritent de la classe Chambre.
 
