@@ -147,5 +147,34 @@ Reservation:
   - client_id: int
   - chambre_id: int
 
+La classe Hotel gère les données :
+
+class Hotel:
+    def __init__(self):
+        self.clients = []
+        self.chambres = []
+        self.reservations = []
+
+    # Clients
+    def ajouter_client(self, client: Client):
+        ...
+
+    def lister_clients(self):
+        ...
+
+    # Chambres
+    def ajouter_chambre(self, chambre: Chambre):
+        ...
+
+    def lister_chambres(self):
+        ...
+
+    # Réservations
+    def ajouter_reservation(self, reservation: Reservation):
+        ...
+
+    def lister_reservations(self):
+        ..
+
 ### 2ème niveau : avec héritage, on créé des classes ChambreSimple, ChambreDouble, ChambreSuite qui héritent de la classe Chambre.
 
