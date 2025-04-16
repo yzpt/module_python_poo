@@ -100,7 +100,9 @@ Complétez les applications :
 
 # 5. Attributs et méthodes publics, protégés et privés
 
-[visibilite.py](visibilite.py)
+[visibilitebiblio.py](visibilitebiblio.py)
+[visibilite_comptes.py](visibilite_comptes.py)
+[visibilite_stock.py](visibilite_stock.py)
 
 <hr>
 
