@@ -47,7 +47,7 @@ class Personnel(Personne):
         super().__init__(nom, age)
         self.poste = poste
 
-    # Polymorphisme : redéfinition personnalisée
+    # Polymorphisme : redéfinition personnalisée objets aient les mêmes méthodes attendues → duck typing.
     def se_presenter(self):
         print(f"🏫 Je suis {self.nom}, j'ai {self.age} ans, et je suis {self.poste}.")
 

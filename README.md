@@ -104,11 +104,7 @@ Complétez les applications :
 
 <hr>
 
-# 6. Projet : 
-
-## Sujet au choix:
-
-### Sujet 1 : gestion de chambres d'hôtel
+# 6. Projet : gestion de chambres d'hôtel
 
 Créer une application de gestion de chambres d'hôtel. L'application doit permettre de gérer les réservations, les clients et les chambres.
 Elle comportera au minimum les classes suivantes :
@@ -129,6 +125,4 @@ Spécifications :
 - Une chambre doit avoir un numéro, un type (simple, double, suite) et un prix.
 
 
-### Sujet 2 : gestion de stock
 
-Créer une application de gestion de stock.
