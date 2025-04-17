@@ -111,7 +111,7 @@ Complétez les applications :
 Créer une application de gestion de chambres d'hôtel. L'application doit permettre de gérer les réservations, les clients et les chambres.
 Elle comportera au minimum les classes suivantes :
 - Client (id, nom, prénom)
-- Chambre (id, prix)
+- Chambre (id, numéro, type, prix)
 - Réservation (id, date d'arrivée, date de départ, client, chambre)
 
 Le menu principal de l'application doit permettre -au minimum- de :
@@ -134,6 +134,9 @@ Client:
   - nom: str
   - prenom: str
 
+Exemple codé :
+
+```python
 
 class Client:
     def __init__(self, id, nom, prenom):
@@ -143,8 +146,7 @@ class Client:
     
     def __str__(self):
         return f"Client(id={self.id}, nom={self.nom}, prenom={self.prenom})"
-
-
+```
   
 Chambre:
   - id: int
@@ -160,6 +162,8 @@ Reservation:
   - chambre_id: int
 
 La classe Hotel gère les données :
+
+```python
 
 class Hotel:
     def __init__(self):
@@ -187,6 +191,7 @@ class Hotel:
 
     def lister_reservations(self):
         ..
+```
 
 ### 2ème niveau : avec héritage, on créé des classes ChambreSimple, ChambreDouble, ChambreSuite qui héritent de la classe Chambre.
 
